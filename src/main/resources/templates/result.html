@@ -1,0 +1,31 @@
+
+
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml" xmlns:form="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Model</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+
+    <h1 align="center">Love Calculator</h1>
+<hr>
+    <div align="center">
+        <form action="process-homepage" method="post" modelAttribute="user">
+            <div>
+                <label>User Name </label>
+                <input type="text" name="userName" placeholder="username">
+            </div>
+            <div>
+                <label>Crush Name</label>
+                <input type="text" name="crushName" placeholder="crushname">
+            </div>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+</body>
+</html>
